@@ -1,6 +1,6 @@
 <script>
-place_id_1.onclick = function() {
-alert(document.getElementById('place_id_1').value)
+function chBackcolor(color) {
+   document.place_button.style.background = color
 };
 </script>
 

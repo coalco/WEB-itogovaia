@@ -114,6 +114,17 @@ header{
     width: 50px;
     height: 25px;
     margin: 5px;
+
+}
+.day_button:active{
+    border:1 px solid red;
+    color:#FFF;
+    background:black;
+}
+.day_button:visited{
+    border:1 px solid red;
+    color:#FFF;
+    background:black;
 }
 .time_div{
     padding: 13.5px;
@@ -134,7 +145,7 @@ header{
 .form_log_in{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     height: 20%;
     width: 30%;
     margin: -15% 0 0 -25%;
