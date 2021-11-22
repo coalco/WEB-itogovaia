@@ -1,0 +1,206 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(#1c92d2, #9ee7ff);
+    color: white;
+    font-family: arial;
+    margin: 0px;
+}
+/*Шапка*/
+header{
+    padding: 5px 15px 5px;
+    height: 30px;   
+}
+.header_text_1{
+    color: white;
+    padding: 5px 10px 5px;
+    background:  rgba(0, 0, 0, 0.5);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgba(0, 0, 0);
+    margin-left: 5px;
+    float: right;
+}
+.header_text_1:hover{
+    border-left: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
+}
+.header_text_2{
+    color: white;
+    padding: 5px 10px 5px;
+    background:  rgba(0, 0, 0, 0.5);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgba(0, 0, 0);
+    margin-left: 5px;
+    float: left;
+}
+.header_text_2:hover{
+    border-left: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
+}
+/*Изображения*/
+.img_1{
+    display: block;
+    float: left;
+    width: auto;
+    border-radius: 5px;
+    margin: 10px;
+}
+/*Панель*/
+.panel_1{
+    display:inline-block;
+    background: rgb(0,0,0,0.5);
+    padding: 1%;
+    margin: 10px; 
+    border-radius: 5px;
+    height: auto;
+}
+.panel_2{
+    display:inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+/*Бронирование*/
+.form_reservation{
+    position: absolute;
+    top: -1%;
+    left: 20%;
+    height: auto;
+    width: auto;
+    margin: 10%;
+    padding: 10px;
+    background: rgb(0,0,0,0.5); 
+    border-radius: 5px;
+}
+.week_div{
+    padding: 5px;
+    height: auto;
+    width: auto;
+    background: rgb(0,0,0,0.5);
+    border-radius: 5px;
+}
+.week_button{
+    background: rgb(255, 255, 255);
+    border: unset;
+    width: 50px;
+    height: 25px;
+    margin: 5px;
+}
+.place_div{
+    padding: 0px 10px 0px;
+    margin: 5px;
+    height: 250px;
+    width: 135px;
+    background: rgb(0,0,0,0.5);
+    border-radius: 5px;
+}
+.place_button{
+    background-color: rgb(255, 255, 255);
+    border: unset;
+    width: 50px;
+    height: 22.9px;
+    margin: 5px;
+}
+.day_div{
+    margin: 5px;
+    height: 275px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.booking_data{
+    width: 100px;
+}
+.time_div{
+    padding: 13.5px;
+    margin: 5px;
+    height: auto;
+    width: auto;
+    background: rgb(0,0,0,0.5);
+    border-radius: 5px;
+}
+.time_rezerv{
+    width: 50px;
+    height: 20px;
+}
+.float{
+    float: right;
+}
+.form_submit{
+    width: 165px;
+}
+/*Авторизация*/
+.form_log_in{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    height: 20%;
+    width: 30%;
+    margin: -15% 0 0 -25%;
+    padding: 10px;
+    background: rgb(0,0,0,0.5); 
+    border-radius: 5px;
+}
+.form_sign_up{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    height: 35%;
+    width: 35%;
+    margin: -15% 0 0 -25%;
+    padding: 10px;
+    background: rgb(0,0,0,0.5); 
+    border-radius: 5px;
+}
+.sign_up{
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+}
+.log_button{
+    border: unset;
+    padding: 5px 20px 5px;
+    margin: 5px;
+}
+/*База данных*/
+.panel_3{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -15% 0 0 -25%;
+    padding: 10px;
+}
+.database_tables{
+    border: 0px solid #999;
+    border-collapse: collapse;
+    border-radius: 2.5px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+/*Профиль*/
+.text_panel{
+    background: rgb(0,0,0,0.5);
+    border-radius: 5px;
+}
+.gradient_1{ 
+    background: rgb(0,0,0,0.5);
+}
+@keyframes gradient{
+    0%{
+        background-position: 50% 0%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 50% 0%;
+    }
+}
